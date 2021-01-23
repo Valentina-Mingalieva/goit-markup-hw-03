@@ -13,34 +13,37 @@
 </head>
 
 <body>
-    <div class="container">
-        <header class="header">
-            <a class="logo-header" href="./index.html" lang="en">Web<span class="studio-above">Studio</span></a>
-            <nav>
+    <!-- header -->
+    <header>
+        <div class="container header">
+            <nav class="navigation">
+                <a class="logo-header" href="./index.html" lang="en">Web<span class="studio-above">Studio</span></a>
                 <ul class="nav-links">
                     <li class="nav-links-item"><a class="nav-link" href="./index.html">Студия</a></li>
                     <li class="nav-links-item"><a class="nav-link" href="./portfolio.html"><span class="this-page">Портфолио</span></a></li>
                     <li class="nav-links-item"><a class="nav-link" href="#">Контакты</a></li>
                 </ul>
             </nav>
-            <address class="header-address">
-                <a class="nav-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                <a class="nav-contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
-            </address>
-        </header>
+            <ul class="header-address">
+                <li class="header-address-item"><a class="nav-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="header-address-item"><a class="nav-contact-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </div>
+    </header>
 
-        <main>
-            <!-- portfolio -->
-            <section class="sort-projects">
+    <main>
+        <!-- portfolio -->
+        <section>
+            <div class="container portfolio">    
                 <h1 hidden>Портфолио</h1>
 
                 <!-- buttons -->
                 <ul class="buttons">
-                    <li><button type="button" class="sort-button">Все</button></li>
-                    <li><button type="button" class="sort-button">Веб-сайты</button></li>
-                    <li><button type="button" class="sort-button">Приложения</button></li>
-                    <li><button type="button" class="sort-button">Дизайн</button></li>
-                    <li><button type="button" class="sort-button">Маркетинг</button></li>
+                    <li class="buttons-item"><button type="button" class="sort-button">Все</button></li>
+                    <li class="buttons-item"><button type="button" class="sort-button">Веб-сайты</button></li>
+                    <li class="buttons-item"><button type="button" class="sort-button">Приложения</button></li>
+                    <li class="buttons-item"><button type="button" class="sort-button">Дизайн</button></li>
+                    <li class="buttons-item"><button type="button" class="sort-button">Маркетинг</button></li>
                 </ul>
 
                 <!-- projects -->
@@ -110,18 +113,21 @@
                         </a>
                     </li>
                 </ul>
-            </section>
-        </main>
+            </div>
+        </section>
+    </main>
 
-        <footer class="footer-container">
+    <!-- footer -->
+    <footer>
+        <div class="container footer">
             <a class="logo-footer" href="./index.html" lang="en">Web<span class="studio-below">Studio</span></a>
             <address class="footer-addresses">
                 <a class="address-link" href="#">г. Киев, пр-т Леси Украинки, 26</a>
                 <a class="contact-link" href="mailto:info@example.com">info@example.com</a>
                 <a class="contact-link" href="tel:+380991111111">+38 099 111 11 11</a>
             </address>
-        </footer>
-    </div>
+        </div>
+    </footer>
 
 </body>
 
