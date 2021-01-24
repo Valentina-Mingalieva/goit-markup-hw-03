@@ -49,10 +49,9 @@ img {
 }
 
 .container {
-  width: 1600px;
-  padding: 0 215px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 /* header */
@@ -60,6 +59,11 @@ img {
 .header {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
+}
+
+.oneline {
+  display: flex;
 }
 
 .navigation {
@@ -90,7 +94,6 @@ img {
 .nav-links-item {
   display: inline-block;
   margin-right: 50px;
-  padding: 32px 0;
 }
 
 .nav-links .nav-links-item:last-child {
@@ -98,6 +101,8 @@ img {
 }
 
 .nav-link {
+  display: inline-block;
+  padding: 32px 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -117,17 +122,18 @@ img {
 }
 
 .nav-contact-link {
+  display: inline-block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  padding: 32px 0;
 }
 
 .header-address-item {
   display: inline-block;
   margin-right: 50px;
-  padding: 32px 0;
 }
 
 .header-address .header-address-item:last-child {
@@ -192,26 +198,27 @@ address {
 /* hero */
 
 .hero {
-  text-align: center;
   background: #2f303a;
-  height: 600px;
   padding: 200px 0px;
 }
 
 .hero-title {
-  display: inline-block;
+  text-align: center;
+  display: block;
+  margin: 0 auto 30px;
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
-  margin: 0 452px 30px 452px;
 }
 
 .order-button {
-  display: inline-block;
+  display: block;
   padding: 8px 30px;
+  margin: 0 auto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -237,7 +244,7 @@ address {
   margin-right: 30px;
 }
 
-.list .list-item:last-child {
+.list-item:last-child {
   margin-right: 0;
 }
 
@@ -296,8 +303,7 @@ address {
 
 .team {
   background: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 0;
   text-align: center;
 }
 
@@ -307,6 +313,7 @@ address {
 }
 
 .member-card {
+  display: inline-block;
   margin-right: 30px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
